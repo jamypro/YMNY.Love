@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti ✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function initAudio() {
+            const audio = document.getElementById('backgroundMusic');
+            audio.volume = 1; // 60% del volumen
+        }
+    </script>
+</head>
+<body onload="initAudio()">
+    <audio id="backgroundMusic" loop autoplay style="display: none;">
+        <!-- Aquí debes poner la URL de tu canción -->
+        <source src="arch/THOSE EYES PRONUNCIACION ESPAÑOL INGLES Y PRONUNCIACIÓN #thoseeyes #pronunciaciondecancioneningles.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+        <div class="envelope" id="envelope">
+            <div class="front">
+                <div class="flap"></div>
+                <h2 class="titulo-frontal">Abrelo plis</h2>
+            </div>
+            <div class="letter">
+                <div class="letter-content">
+                    <div class="stars-background"></div>
+                    <div class="content-wrapper">
+                        <img src="images/1920x1080.jpg" alt="Estrellas en el cielo" class="star-image top">
+                        <h1>✨ Para la estrella más brillante ✨</h1>
+                        <div class="central-content">
+                            <img class="img-png" src="images/40622.png" alt="rosa" class="star-image left">
+                            <div class="poem">
+                                <p>
+                                    En el cielo brillan mil estrellas,<br>
+                                    pero ninguna como tú resplandece.<br>
+                                    Cada noche, al mirar arriba,<br>
+                                    pienso en tu luz que nunca perece.<br><br>
+                                    Eres mi constelación favorita,<br>
+                                    mi deseo al ver una estrella fugaz.<br>
+                                    Si pudiera, te daría el universo,<br>
+                                    pero por ahora, te regalo mi paz.<br><br>
+                                    Que cada estrella te recuerde<br>
+                                    lo especial que eres para mí.<br>
+                                    Porque en este cielo infinito,<br>
+                                    tú eres mi razón de sonreír.
+                                </p>
+                            </div>
+                            <img class="img-png" src="images/moon-5376493_960_720.webp" alt="Constelación" class="star-image right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
